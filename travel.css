@@ -1,0 +1,317 @@
+@media (max-width:768px){
+    #booking{
+        font-size: 15px;
+    }
+
+    #npr{
+        display: none;
+    }
+}
+
+@media (max-width:615px){
+    #que{
+        display: none;
+    }
+}
+
+@media (max-width:554px){
+    #nepal{
+        display: none;
+    }
+}
+
+@media (max-width:455px){
+    #booking{
+        font-size: 10px;
+    }
+
+    #reg{
+        display: none;
+    }
+
+}
+
+@media (max-width:320px){
+    #booking{
+        font-size: 20px;
+    }
+
+    #sign{
+        display: none;
+    }
+
+}
+
+@media (max-width:1025px){
+    #taxi{
+        display: none;
+    }
+
+}
+
+
+@media (max-width:769px){
+    #attraction{
+        display: none;
+    }
+
+}
+
+@media (max-width:547px){
+    #car{
+        display: none;
+    }
+
+}
+
+@media (max-width:390px){
+    #flights{
+        display: none;
+    }
+
+}
+
+@media (max-width:794px){
+    #going{
+        width: 130px;
+    }
+
+    #going input{
+        width: 20px;
+    }
+}
+
+@media (max-width:583px){
+    #date{
+        width: 100px;
+    }
+}
+
+@media (max-width:498px){
+    #all{
+        flex-direction: column;
+        border: none;
+    }
+
+    #date{
+        width: 100%;
+    }
+
+    #going{
+        width: 100%;
+    }
+
+    #going input{
+        width: 100%;
+    }
+
+    #people{
+        width: 100%;
+    }
+
+    #search{
+        width: 100%;
+    }
+
+    #check{
+        display: none;
+    }
+
+    #first-section{
+        margin-top: 220px;
+    }
+
+    #first-section p{
+        font-size: 10px;
+    }
+}
+
+@media (max-width:369px){
+    #find{
+        width: 100%;
+        font-size: 20px;
+    }
+
+    #searc{
+        width: 100%;
+        font-size: 10px;
+    }
+}
+
+#img{
+    background-image: url(offer.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+@media (max-width:1044px){
+    #img p{
+        width: 60%;
+    }
+}
+
+@media (max-width:1030px){
+    #img #off{
+        display: none;
+    }
+    #img p{
+        width: 40%;
+    }
+}
+
+@media (max-width:776px){
+    #img p{
+        width: 100%;
+    }
+
+    #btn{
+        width: 100px;
+        font-size: 15px;
+    }
+
+    #img{
+        background-image: none;
+    }
+}
+
+@media (max-width:400px){
+    #img p{
+        font-size: 8px;
+    }
+
+    #btn{
+        width: 100px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width:360px){
+    #second-section h1{
+        font-size: 15px;
+    }
+
+    #second-section p{
+        font-size: 10px;
+    }
+}
+
+#desti-one{
+    position: relative;
+}
+
+#shade-one{
+    position: absolute;
+    background: linear-gradient(rgba(11, 11, 11, 0.548), rgba(133, 133, 133, 0.17));
+    height: 100%;
+    width: 100%;
+    top: 0;
+    border-radius: 5px;
+    transition: all linear 0.01s;
+}
+
+#shade-one:hover{
+    cursor: pointer;
+    background: linear-gradient(rgba(0, 0, 0, 0.635), rgba(133, 133, 133, 0.17));
+    border: 2px solid gold;
+}
+
+#desti-two{
+    position: relative;
+}
+
+#shade-two{
+    position: absolute;
+    background: linear-gradient(rgba(11, 11, 11, 0.548), rgba(133, 133, 133, 0.17));
+    height: 100%;
+    width: 100%;
+    top: 0;
+    border-radius: 5px;
+    transition: all linear 0.01s;
+}
+
+#shade-two:hover{
+    cursor: pointer;
+    background: linear-gradient(rgba(0, 0, 0, 0.635), rgba(133, 133, 133, 0.17));
+    border: 2px solid gold;
+}
+
+@media (max-width:1240px){
+    #desti-two img{
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:765px){
+    #desti img{
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width:400px){
+    #desti img{
+        height: 150px;
+    }
+}
+
+
+.accordion{
+    margin-top: 30px;
+    display: flex;
+  }
+  
+  .accordion-heading{
+    cursor: pointer;
+  }
+  
+  .accordion-heading:hover{
+  background: #ddd;;
+  }
+  
+  .accordion-heading, .accordion-body{
+    border:1px solid grey;
+    padding: 15px;
+    border-radius: 30px;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+  
+  .accordion-body{
+    display: none;
+  }
+
+.img{
+    border-radius: 20px;
+}
+
+@media (max-width:598px){
+    .accordion{
+        flex-direction: column;
+    }
+    #globe{
+        display: none;
+    }
+    #glo{
+        padding-left: 20px;
+    }
+}
+
+@media (max-width:366px){
+    #regr{
+        display: none;
+    }
+    #img-div{
+        margin-top: 5px;
+    }
+}
+
+@media (max-width:419px){
+    #mail{
+        width: 75%;
+    }
+
+    #sub{
+        width: 50%;
+        font-size: 10px;
+    }
+}
